@@ -139,7 +139,7 @@ db:
     "isUnique":    false,
     "cardinality": "SINGLE"</verbatim>
 
-Note the “isOptional=true” constraint - a table entity cannot be created without a db reference.
+Note the “isOptional=false” constraint - a table entity cannot be created without a db reference.
 
 <verbatim>
 columns:
